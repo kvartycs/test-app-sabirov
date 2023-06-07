@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-app-sabirov/static/css/main.2dd2fc1f.css",
+    "main.js": "/test-app-sabirov/static/js/main.21618430.js",
+    "index.html": "/test-app-sabirov/index.html",
+    "main.2dd2fc1f.css.map": "/test-app-sabirov/static/css/main.2dd2fc1f.css.map",
+    "main.21618430.js.map": "/test-app-sabirov/static/js/main.21618430.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dd2fc1f.css",
+    "static/js/main.21618430.js"
+  ]
+}
