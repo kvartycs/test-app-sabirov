@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Blocks from './components/Blocks/Blocks'
+import Header from './components/Header/Header'
+import Text from './components/Text/Text'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ backgroundImage: `url("./img/bg.png")` }}>
+      <div className="container">
+        <Header />
+        <div className="middle">
+          <Text />
+          <Blocks />
+        </div>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
